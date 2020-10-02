@@ -1,0 +1,89 @@
+.centro {
+    width: 320px;
+    height: 420px;
+    border: 1px solid #7c48f5;
+    background: linear-gradient(to top, #000000, #7c48f5);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 80px 0px 80px 0px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 15px 0 15px 0 rgba(0, 0, 0, .5);
+    padding: 68px 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Login-logo {
+ align-items: center;
+ position: fixed;
+padding-left: 50px;
+opacity: 20%;
+}
+
+.tela-login {
+    margin: 50px;
+    color: white;
+    position: relative;
+    font-family: Gotham-Medium;
+}
+
+@font-face {
+    font-family: Swiss;
+    src: url(../../Fonts/swiss-721-black-extended-bt.ttf);
+    }
+    @font-face {
+        font-family: Gotham-Light;
+        src: url(../../Fonts/gotham-light.ttf);
+        }
+        @font-face {
+            font-family: Gotham-Medium;
+            src: url(../../Fonts/gotham-medium.ttf);
+            }
+
+.input {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: Gotham-Light;
+    font-size: 15px;
+}
+
+.login {
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    border: 1px solid mediumorchid;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    background-color: #c4c3c2;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.login:hover {
+    cursor: pointer;
+    background-color:#7c48f5;
+    transition: 0.2s;
+}
+
+.outros {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: Gotham-Medium;
+}
+
+.outros:hover {
+    color: red;
+}

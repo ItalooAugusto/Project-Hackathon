@@ -1,0 +1,54 @@
+.tela-cadastro {
+    padding: 20px;
+    margin: 20px;
+}
+
+.conteudo {
+    height: 30px;
+    width: 500px;
+    border: 1px solid black;
+    background: transparent;
+    outline: none;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: Gotham-Light;
+    font-size: 15px;
+}
+
+.conteudo-menor {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    background: transparent;
+    outline: none;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: Gotham-Light;
+    font-size: 15px;
+}
+
+.ddd {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 30px;
+    width: 40px;
+    border: 1px solid black;
+    background: transparent;
+    outline: none;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: Gotham-Light;
+    font-size: 15px;
+}
+label {
+    margin-right: 15px;
+}

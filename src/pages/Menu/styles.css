@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(to right, #000000, #7c48f5);
+}
+
+header ul {
+    padding: 15px;
+    padding-top: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+} 
+  @font-face {
+    font-family: Swiss;
+    src: url(../../Fonts/swiss-721-black-extended-bt.ttf);
+    }
+    @font-face {
+        font-family: Gotham-Light;
+        src: url(../../Fonts/gotham-light.ttf);
+        }
+
+.Links {
+    padding-left: 15px;
+    font-family: Gotham-Light;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+.Links:hover {
+color: #c4c3c2;
+}
+
+img {
+    padding-left: 20px;
+}
+
+.Logo:hover { 
+    color: #c4c3c2;
+
+}
+
+.social {
+    padding-left: 10px;
+    align-items: center;
+
+}
