@@ -1,0 +1,19 @@
+.time {
+    text-align: center;
+    font-family: Swiss;
+    color: #7c48f5;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .5); 
+}
+
+@font-face {
+    font-family: Swiss;
+    src: url(../../Fonts/swiss-721-black-extended-bt.ttf);
+    }
+    @font-face {
+        font-family: Gotham-Light;
+        src: url(../../Fonts/gotham-light.ttf);
+        }
+        @font-face {
+            font-family: Gotham-Medium;
+            src: url(../../Fonts/gotham-medium.ttf);
+            }
