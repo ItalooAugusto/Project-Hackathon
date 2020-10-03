@@ -11,7 +11,7 @@ export default function Main() {
           <p class="lead">Está pronto para uma aventura com a 4us e a NASA?</p>
           <hr class="my-4" />
           <p>Aqui você encontra informações que te levarão para outro mundo.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Saiba Mais</a>
+          <a class="btn btn-primary btn-lg" href="/Home" role="button">Saiba Mais</a>
         </div>
       </div>
     </>
