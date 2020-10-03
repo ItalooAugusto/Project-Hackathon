@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
-import { FaGithub } from 'react-icons/fa';
 import Logo from '../../assets/4us.png';
 
 
@@ -25,29 +24,8 @@ export default function Menu() {
               <li class="nav-item active">
                 <Link to="/" className="Links">Home</Link>
               </li>
-              <li class="nav-item">
-                <Link to="/projeto" className="Links">Projeto</Link>
-
-              </li>
-              <li class="nav-item">
-                <Link to="/equipe" className="Links">Equipe</Link>
-              </li>
-              <li class="nav-item">
-                <Link to="/login" className="Links">Login</Link>
-                
-              </li>
-              <li class="nav-item">
-                <Link to="/cadastro" className="Links">Cadastro</Link>
-              </li>
-              <li className="social"><FaGithub size={30} color="#7c48f5" /></li>
-
-              <li>
-
-
-              </li>
 
             </ul>
-
           </div>
         </nav>
 

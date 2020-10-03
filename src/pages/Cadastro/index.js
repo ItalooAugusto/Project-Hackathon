@@ -15,65 +15,43 @@ export default function Cadastro() {
                 <form className="tela-cadastro">
                     <fieldset>
                         <legend>CADASTRO:</legend>
-                        <label className="campos">Nome:</label>
-                        <input className="conteudo" type="text"></input>
+                        <label className="campos">Qual é o seu Nome:</label>
                         <br></br>
-                        <label className="campos">E-mail:</label>
-                        <input className="conteudo" type="text"></input>
+                        <input className="conteudo" type="text" placeholder="Nome"></input>
                         <br></br>
-                        <label className="campos">Senha: </label>
-                        <input className="conteudo-menor" type="password">
+                        <input className="conteudo" type="text" placeholder="Sobrenome"></input>
+                        <br></br>
+                        <label className="campos">Login: </label>
+                        <br></br>
+                        <input className="conteudo-menor" type="text" placeholder="Login">
                         </input><br /><br />
-                        <hr></hr>
+                        <label className="campos">Senha: </label>
                         <br></br>
-                        <label className="campos">Endereço:</label>
-                        <input className="conteudo" type="text"></input> <label> Nº</label><input className="conteudo-menor"></input>
+                        <input className="conteudo-menor" type="password" placeholder="Senha">
+                        </input><br /><br />
+                        <br></br>
+                        <label className="campos">Qual é a sua localidade:</label>
+                        <br></br>
                         <br></br>
                         <label className="campos">Bairro:</label>
-                        <input className="conteudo" type="text"></input>
+                        <br></br>
+                        <input className="conteudo" type="text" placeholder="Bairro"></input>
                         <br></br>
                         <label className="campos">País:</label>
+                        <br></br>
                         <select className="conteudo-menor">
                             <option value="Brasil">Brasil</option>
                         </select>
                         <br></br>
                         <label className="campos">Estado:</label>
+                        <br></br>
                         <select className="conteudo-menor">
                             <option value="São Paulo">São Paulo</option>
                         </select>
                         <br></br>
-                        <hr></hr>
-                        <br></br>
                         <label className="campos">Telefone:</label>
-                        <input className="ddd" type="number "></input><input className="conteudo-menor" type="text" ></input>
+                        <input className="conteudo" type="text" placeholder="( XX ) XXXXX-XXXX"  ></input>
                         <br></br>
-                        <label className="campos">Data Nasc:</label>
-                        <input className="conteudo-menor" type="date"></input>
-                        <br></br>
-                        <label className="campos">Sexo: </label>
-                        <ul>
-                            <li>
-                                <input className="chekmark" type="checkbox">
-                                </input>Feminino
-                            </li>
-                            <li>
-                                <input className="checkmark" type="checkbox">
-                                </input>Masculino</li>
-
-                            <li><input className="checkmark" type="checkbox">
-                            </input>Anônimo</li>
-                        </ul>
-                        <br></br>
-
-
-
-
-
-
-
-
-
-
 
                         <input className="" type="submit" name="" value="Cadastrar">
                         </input>

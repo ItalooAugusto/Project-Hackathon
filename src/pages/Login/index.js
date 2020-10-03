@@ -1,18 +1,18 @@
 import React from 'react';
-import Menu from '../Menu';
+import MenuDois from '../MenuDois';
 import './styles.css';
 import LoginLogo from '../../assets/4us200.png';
 
 export default function Login() {
     return (
         <>
-            <Menu />
+            <MenuDois />
 
             <div>
                 <div className="centro">
-               
-                <img src={LoginLogo} alt="logo" className="Login-logo"/>
-                  
+
+                    <img src={LoginLogo} alt="logo" className="Login-logo" />
+
                     <form className="tela-login" action="../../api/login.php" method="POST">
                         <label>Usuário:</label>
                         <input className="input" type="text" name="login"></input>
@@ -27,6 +27,13 @@ export default function Login() {
             </form>
                 </div>
             </div>
+
+
+
+
+
+
+
         </>
     );
 }

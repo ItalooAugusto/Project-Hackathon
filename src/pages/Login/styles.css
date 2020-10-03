@@ -2,10 +2,10 @@
     width: 320px;
     height: 420px;
     border: 1px solid #7c48f5;
-    background: linear-gradient(to top, #000000, #7c48f5);
+    background: #7c48f5;
     top: 50%;
     left: 50%;
-    position: absolute;
+    position: fixed;
     border-radius: 80px 0px 80px 0px;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
@@ -24,7 +24,7 @@ opacity: 20%;
 }
 
 .tela-login {
-    margin: 50px;
+    margin-left: 50px;
     color: white;
     position: relative;
     font-family: Gotham-Medium;
@@ -44,12 +44,12 @@ opacity: 20%;
             }
 
 .input {
-    border: none;
-    border-bottom: 1px solid white;
-    background: transparent;
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 20px;
     outline: none;
     margin-bottom: 15px;
-    color: #ffffff;
+    color: #000000;
     font-family: Gotham-Light;
     font-size: 15px;
 }
