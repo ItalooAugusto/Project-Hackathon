@@ -17,7 +17,7 @@ export default function Menu() {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <Link to="/" className="Links">Home</Link>
               </li>
