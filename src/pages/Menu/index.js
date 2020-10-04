@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
-import { FaGithub } from 'react-icons/fa';
-import Logo from '../../assets/4us.png';
 
 
 
@@ -13,9 +11,7 @@ export default function Menu() {
       <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-left">
 
-          <Link to="/">
-            <img src={Logo} alt="logo" />
-          </Link>
+          
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,12 +35,8 @@ export default function Menu() {
               <li class="nav-item">
                 <Link to="/cadastro" className="Links">Cadastro</Link>
               </li>
-              <li className="social"><FaGithub size={30} color="#7c48f5" /></li>
-
-              <li>
-
-
-              </li>
+              
+              
 
             </ul>
 
