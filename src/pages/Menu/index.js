@@ -9,7 +9,7 @@ export default function Menu() {
     <>
 
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-left">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
           
 
