@@ -5,6 +5,15 @@
     text-shadow: 3px 3px 3px rgba(0, 0, 0, .5); 
 }
 
+.nomesEquipe {
+
+    font-family: Gotham-Medium;
+}
+
+.conteudoEquipe { 
+    font-family: Gotham-Light;
+}
+
 @font-face {
     font-family: Swiss;
     src: url(../../Fonts/swiss-721-black-extended-bt.ttf);

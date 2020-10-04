@@ -1,7 +1,15 @@
 .tela-cadastro {
     padding: 20px;
     margin: 20px;
-    
+    text-align: justify;
+    font-family: Swiss;
+}
+
+.cadastro {
+    width: 650px;
+    background-color: #7c48f5;
+    border-radius:  15px 15px 15px 15px;
+    justify-content: center;
 }
 
 .conteudo {

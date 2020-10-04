@@ -26,8 +26,8 @@ export default function Equipe() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Renan</h5>
-                <p class="card-text">Negócios <br/>
+                <h5 class="card-title" className="nomesEquipe">Renan</h5>
+                <p class="card-text" className="conteudoEquipe">Negócios <br/>
                 Preparar as apresentações e montar a arquitetura do projeto apresentado.</p>
               </div>
             </div>
@@ -41,8 +41,8 @@ export default function Equipe() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Elias </h5>
-                <p class="card-text">Tecnologia<br />
+                <h5 class="card-title" className="nomesEquipe">Elias </h5>
+                <p class="card-text" className="conteudoEquipe">Tecnologia<br />
                 Chatbot integração WATSON.<br/>
                 https://github.com/ecjN00B/</p>
               </div>
@@ -57,8 +57,8 @@ export default function Equipe() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Ítalo </h5>
-                <p class="card-text">Tecnologia<br/>
+                <h5 class="card-title" className="nomesEquipe">Ítalo </h5>
+                <p class="card-text" className="conteudoEquipe">Tecnologia<br/>
                  Web.<br/>
                 https://github.com/noiiba</p>
               </div>
@@ -73,10 +73,8 @@ export default function Equipe() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Maykon </h5>
-                <p class="card-text">Tecnologia</p>
-                <p class="card-text"></p>
-                <p class="card-text"></p>
+                <h5 class="card-title" className="nomesEquipe">Maykon </h5>
+                <p class="card-text" className="conteudoEquipe">Tecnologia</p>
               </div>
             </div>
           </div>
@@ -89,8 +87,8 @@ export default function Equipe() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Michelle </h5>
-                <p class="card-text">Designer<br />
+                <h5 class="card-title" className="nomesEquipe">Michelle </h5>
+                <p class="card-text" className="conteudoEquipe">Designer<br />
                 https://www.behance.net/michelleoliverdesign</p>
                 
               </div>
